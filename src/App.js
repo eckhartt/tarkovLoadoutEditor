@@ -1,13 +1,11 @@
 import "./styles.css";
-import { ItemSelect } from "./components/ItemSelect";
-import { helmetOptions, headsetOptions } from "./components/slotOptions";
+import { LoadoutSelection } from "./components/LoadoutSelection";
 
 export default function App() {
   return (
     <div className="App">
       <h1>Tarkov Loadout Editor</h1>
-      <ItemSelect id="helmet" label="Helmet" options={helmetOptions} />
-      <ItemSelect id="headset" label="Headset" options={headsetOptions} />
+      <LoadoutSelection />
     </div>
   );
 }
