@@ -1,3 +1,5 @@
+// Contains list of all items
+
 const earpieceOptions = [
   {
     name: "None",

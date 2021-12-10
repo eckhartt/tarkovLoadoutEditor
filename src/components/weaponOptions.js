@@ -1,3 +1,5 @@
+// Contains list of all weapons
+
 const primaryWeaponOptions = [
   {
     name: "None",
